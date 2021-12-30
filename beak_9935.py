@@ -53,4 +53,7 @@ print(result)
 # arr = str(input())
 # arrSearch = str(input())
 # result = sol(arr, arrSearch)
-# print(result)
+# if len(result) == 0:
+#     print('FRULA')
+# else:
+#     print(''.join(result))
