@@ -30,3 +30,27 @@ test2 = str(input())
 
 result = sol(test, test2)
 print(result)
+
+
+
+
+# def sol(arr, arrSearch):
+#     answer = ''
+#     stk = []
+#     arr_len = len(arr)
+#     arrSearch_len = len(arrSearch)
+#     for i in range(0, arr_len):
+#         stk.append(arr[i])
+#         if arr[i] == arrSearch[-1]:
+#             temp = ''.join(stk[len(stk)-arrSearch_len:])
+#             if temp == arrSearch:
+#                 for j in range(0, arrSearch_len):
+#                     stk.pop()
+#     answer = stk
+#     return answer
+
+# arr = []
+# arr = str(input())
+# arrSearch = str(input())
+# result = sol(arr, arrSearch)
+# print(result)
